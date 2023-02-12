@@ -20,7 +20,8 @@ app.use((req, res, next) => {
 
 
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb+srv://Nolan:nolan73410@formation.elxxu2d.mongodb.net/?retryWrites=true&w=majority',
+
+mongoose.connect('mongodb+srv://<user>:<password>@formation.elxxu2d.mongodb.net/?retryWrites=true&w=majority',
 {
   useNewUrlParser: true,
   useUnifiedTopology: true
